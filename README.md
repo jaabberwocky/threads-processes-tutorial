@@ -15,3 +15,7 @@
 3. Memory is not shared between processes
 4. Mutexes not necessary
 5. One GIL
+
+### ThreadPoolExecutor:
+1. Easy way to submit functions
+2. `as_completed` yields results as soon as the `future` object is finished
